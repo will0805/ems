@@ -368,7 +368,7 @@ document.sentMessage.submit();
                 <div class="clearfix"></div>
                 <div class="col-lg-5 col-sm-6 col-offset-4">
                     <div class="clearfix"></div>
-                    <p class="section-heading">About Us<p>
+                    <h3 class="section-heading">About Us<h3>
                     <p class="lead">This application is designed to enable users to speedily create simple registration forms that capture essential information and provide the means to easily communicate with the participants and download event registration information for more specific manual manipulation through spreadsheet programs.</p>
                 </div>
             </div>
