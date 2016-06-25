@@ -210,7 +210,8 @@ document.sentMessage.submit();
 
 <body>
 
-	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="container" >
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -273,6 +274,7 @@ document.sentMessage.submit();
     -->
   </div><!-- /.navbar-collapse -->
   <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" ></a></div>
+    </div>
   </nav>
   <!-- Code for Login / Signup Popup -->
   <!-- Modal Log in -->
@@ -339,17 +341,18 @@ document.sentMessage.submit();
 
     <div class="intro-header" id="home" class="container">
 
-     <div class="col-lg-12">
-                    <img class="img-responsive" src="img/ipad.png" alt="">
-                </div>
-
+    <div class="row">
+    <div class="col-lg-12" id="main-pic">
+            <img class="img-responsive" id="main-img" src="img/ipad.png" alt="">
+    </div>
+    </div>
     </div>
     <!-- /.intro-header -->
 
 
     <div class="content-section-a" id="about">
 
-        <div class="container">
+        <div class="container" id="content-container">
 
             <div class="row">
                 <div class="col-md-4 col-lg-4">
@@ -361,7 +364,9 @@ document.sentMessage.submit();
                 <div class="col-md-4 col-lg-4">
                     <img class="img-responsive" src="img/img3.jpg" alt="">
                 </div>
-                <div class="col-lg-5 col-sm-6">
+
+                <div class="clearfix"></div>
+                <div class="col-lg-5 col-sm-6 col-offset-4">
                     <div class="clearfix"></div>
                     <p class="section-heading">About Us<p>
                     <p class="lead">This application is designed to enable users to speedily create simple registration forms that capture essential information and provide the means to easily communicate with the participants and download event registration information for more specific manual manipulation through spreadsheet programs.</p>
@@ -376,7 +381,7 @@ document.sentMessage.submit();
 
     <div class="content-section-a" id="contact">
 
-        <div class="container">
+        <div class="container" id="content-container">
 
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
