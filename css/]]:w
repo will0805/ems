@@ -1,7 +1,6 @@
 body, html {
 	height: 100%;
 	width: 100%;
-    max-width:100%;
 }
 
 body, h1, h2, h3, h4, h5, h6 {
@@ -22,31 +21,12 @@ body, h1, h2, h3, h4, h5, h6 {
 	text-align: center;
     width:100%;
 }
-
 #main-pic {
     padding-left:0px;
     padding-right:0px;
-}
-
-#main-img {
-  /* Set rules to fill background */
-  min-height: 100%;
-	
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-	
-  /* Set up positioning */
-  position: static;
-  top: 0;
-  left: 0;
-}
-
-#content-container {
-
-    margin-top:20px;
-
-
+    margin-right:-60px;
+    padding-bottom:50px;
+    height:80%;
 }
 
 
@@ -110,7 +90,6 @@ body, h1, h2, h3, h4, h5, h6 {
 .content-section-a {
 	background-color: #f8f8f8;
 	padding: 50px 0;
-    width:100%;
 	
 }
 
