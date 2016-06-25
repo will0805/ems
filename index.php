@@ -337,46 +337,11 @@ document.sentMessage.submit();
   <!-- Modal Sign up ends! -->
   <!-- End code for Login / Signup Popup -->
 
-    <div class="intro-header" id="home">
-		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-					  <!-- Indicators -->
-					  <ol class="carousel-indicators">
-					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-					    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-					  </ol>
-					
-					  <!-- Wrapper for slides -->
-					  <div class="carousel-inner">
-					    <div class="item active">
-					      <center><img src="img/img1.jpg" alt="First Image"></center>
-					      <div class="carousel-caption">
-					       
-					      </div>
-					    </div>
-					    <div class="item">
-					      <center><img src="img/img2.jpg" alt="Second Image"></center>
-					      <div class="carousel-caption">
-					        
-					      </div>
-					    </div>
-					    <div class="item">
-					      <center><img src="img/img3.jpg" alt="Third Image"></center>
-					      <div class="carousel-caption">
-					        
-					      </div>
-					    </div>
-					  </div>
-					
-					  <!-- Controls -->
-					  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-					    <span class="glyphicon glyphicon-chevron-left"></span>
-					  </a>
-					  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-					    <span class="glyphicon glyphicon-chevron-right"></span>
-					  </a>
-					</div>
-        <!-- /.container -->
+    <div class="intro-header" id="home" class="container">
+
+     <div class="col-lg-12">
+                    <img class="img-responsive" src="img/ipad.png" alt="">
+                </div>
 
     </div>
     <!-- /.intro-header -->
