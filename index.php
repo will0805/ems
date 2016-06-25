@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 $email='';
 if(isset($_SESSION['email'])){
@@ -41,7 +41,7 @@ if(isset($_SESSION['email'])){
   <link href='http://fonts.useso.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/reset.css"> --> <!-- CSS reset -->
   <link rel="stylesheet" href="css/mystyle.css"> <!-- Resource style -->
-  
+
   <script src="js/modernizr.js"></script> <!-- Modernizr -->
 
     <!-- JavaScript -->
@@ -151,7 +151,7 @@ if((i<0)||(j<0)){
 }
 else
 	{
-document.login.submit();  
+document.login.submit();
 }
 }
 function check1(){
@@ -181,7 +181,7 @@ if((i<0)||(j<0)){
 }
 else
 {
-document.sign.submit();  
+document.sign.submit();
 }
 }
 function check2(){
@@ -202,7 +202,7 @@ if((i<0)||(j<0)){
 }
 else
 	{
-document.sentMessage.submit();  
+document.sentMessage.submit();
 }
 }
 </script>
@@ -225,7 +225,7 @@ document.sentMessage.submit();
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav navbar-right">
-      
+
       <li><a href="#about">About Us</a></li>
       <li><a href="news.php" onclick="login_check8()">Events Created</a></li>
       <?php
@@ -244,8 +244,8 @@ document.sentMessage.submit();
           <li><a href="#" onclick="login_check6()">Participant Attendance</a></li>
 
         </ul>
-      </li>     
-      
+      </li>
+
       <li><a href="#contact">Contact Us</a></li>
       <li class="dropdown">
       	<?php
@@ -263,7 +263,7 @@ document.sentMessage.submit();
         </ul>
       </li>
     </ul>
-    <!-- 
+    <!--
     <form class="navbar-form navbar-right" role="search">
       <div class="form-group">
         <input type="text" class="form-control" placeholder="Search">
@@ -292,10 +292,10 @@ document.sentMessage.submit();
 	        <input type="password" placeholder="Password" name="password" /><br />
 	      </div>
 	      <div class="modal-footer" >
-			  <input style="float: left" type="submit" class="btn btn-success" name="submit1" value="Log In" onclick="return check()"/> 
-		
+			  <input style="float: left" type="submit" class="btn btn-success" name="submit1" value="Log In" onclick="return check()"/>
+
 	       <span class="fp-link"> <a href="#">Forgot Password?</a></span>
-	       
+
 	       <br/><br/>
 			<span> Not a member yet?</span>
 			<span id="signup-link" style="cursor:pointer;" class="text-info">Sign Up!</span>
@@ -327,8 +327,8 @@ document.sentMessage.submit();
 	        <input type="password" placeholder="Re-type Password" name="re_password" />
 	      </div>
 	      <div class="modal-footer" >
-		      <input style="float:left" type="submit" class="btn btn-success"  value="Sign Me Up" onclick="return check1()"/> 
-	       <span>&nbsp;&nbsp;&nbsp; Already a member? </span><span id="login-link" class="text-info" style="cursor:pointer;">  Login now  </span> 
+		      <input style="float:left" type="submit" class="btn btn-success"  value="Sign Me Up" onclick="return check1()"/>
+	       <span>&nbsp;&nbsp;&nbsp; Already a member? </span><span id="login-link" class="text-info" style="cursor:pointer;">  Login now  </span>
 		    </div>
 	    </div><!-- /.modal-content -->
 	  </form>
@@ -352,13 +352,19 @@ document.sentMessage.submit();
         <div class="container">
 
             <div class="row">
+                <div class="col-md-4 col-lg-4">
+                    <img class="img-responsive" src="img/img1.jpg" alt="">
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <img class="img-responsive" src="img/img2.jpg" alt="">
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <img class="img-responsive" src="img/img3.jpg" alt="">
+                </div>
                 <div class="col-lg-5 col-sm-6">
                     <div class="clearfix"></div>
                     <p class="section-heading">About Us<p>
                     <p class="lead">This application is designed to enable users to speedily create simple registration forms that capture essential information and provide the means to easily communicate with the participants and download event registration information for more specific manual manipulation through spreadsheet programs.</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/ipad.png" alt="">
                 </div>
             </div>
 
@@ -382,20 +388,20 @@ document.sentMessage.submit();
 		                        <input type="text" class="form-control" placeholder="Name" name="name" required data-validation-required-message="Please enter your name" />
 		                          <p class="help-block"></p>
 		                   </div>
-		                 </div>         
+		                 </div>
 		                <div class="control-group">
 		                  <div class="controls">
 		                        <input type="email" class="form-control" placeholder="Email" name="email" required data-validation-required-message="Please enter your email" />
 		                        <p class="help-block"></p>
 		                </div>
-			            </div>         
-			                          
+			            </div>
+
 			               <div class="control-group">
 			                 <div class="controls">
 			                                 <textarea rows="10" cols="100" class="form-control" placeholder="Message" name="message" required data-validation-required-message="Please enter your message" minlength="5" data-validation-minlength-message="Min 5 characters" maxlength="999" style="resize:none"></textarea>
 			                                 <p class="help-block"></p>
 			                </div>
-			               </div>                  
+			               </div>
 			             <div id="success"> </div> <!-- For success/fail messages -->
 			            <button type="submit" class="btn btn-primary pull-right" onclick="return check2()">Send</button><br /><br/>
 			          </form>
@@ -414,9 +420,9 @@ document.sentMessage.submit();
   <footer>
                     <p style="padding-top: 20px">
                     <center><p class="copyright text-muted small">Copyright © 2016 | All Rights Reserved EMS</p></center>
-                
+
     </footer>
-   
+
 </body>
 
 </html>
